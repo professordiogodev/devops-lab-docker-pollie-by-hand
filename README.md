@@ -22,11 +22,9 @@
 
 ## 🎬 The situation
 
-<p align="center"><img src="assets/gifs/situation.gif" width="300" alt="Animation: docker network"></p>
+<p align="center"><img src="assets/gifs/situation.gif" width="300" alt="Containers on two networks with the database reachable only from inside"></p>
 
-The team will move Pollie to Docker Compose next week. Before that, your lead wants one engineer to understand what Compose will do *for* them, by doing it the hard way once: five containers, two networks, one volume, no orchestration.
-
-The three requirements from security and operations:
+Your mentor pulls a chair over. *"The team moves Pollie to Docker Compose next week. Before that I want one engineer to know what Compose will do **for** us, so you will do it the hard way once: five containers, two networks, one volume, no orchestration. Three requirements came from security and operations. I will read them out, you build, and we talk when it breaks."*
 
 - *"The database must not be reachable from anything that faces the user."*
 - *"If someone deletes the containers, the polls must still be there when we bring it back."*
